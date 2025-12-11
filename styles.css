@@ -97,12 +97,13 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-weight: 700;
-  font-size: 0.9rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #1b1b1f;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+}
+
+.logo-mark svg {
+  width: 24px;
+  height: 24px;
+  display: block;
 }
 
 .logo-text {

@@ -16,7 +16,7 @@ const translations = {
     "hero.ctaSecondary": "See what you’ll learn",
     "hero.badge": "Free 45‑minute session",
     "hero.note":
-      "Online or in‑person in Ljubljana.",
+      "In Ljubljana or online.",
     "hero.sessionLabel": "Next available: this week",
     "hero.sessionText":
       "Bring a song you love – we’ll turn it into a playable fingerstyle arrangement together.",
@@ -146,7 +146,7 @@ const translations = {
     "hero.ctaSecondary": "Poglej, kaj se boš naučil",
     "hero.badge": "Brezplačna 45‑minutna ura",
     "hero.note":
-      "Online ali v živo v Ljubljani.",
+      "V Ljubljani ali online.",
     "hero.sessionLabel": "Naslednji termin: ta teden",
     "hero.sessionText":
       "Prinesi pesem, ki ti je všeč – skupaj jo spremeniva v fingerstyle aranžma.",
