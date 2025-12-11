@@ -617,6 +617,51 @@ a {
   align-items: flex-start;
 }
 
+.about-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.about-list {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-list h3 {
+  margin: 0 0 4px 0;
+  font-size: 0.95rem;
+}
+
+.about-list p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-soft);
+}
+
+.about-card {
+  border-radius: var(--radius-lg);
+  padding: 18px 18px 18px;
+  background: rgba(15, 23, 42, 0.98);
+  border: 1px solid rgba(148, 163, 184, 0.6);
+  box-shadow: var(--shadow-subtle);
+}
+
+.about-card p {
+  margin: 0 0 6px 0;
+  font-size: 0.9rem;
+  color: var(--text-soft);
+}
+
+.about-card p:last-child {
+  margin-bottom: 0;
+}
+
 .contact-note {
   margin-top: 14px;
   font-size: 0.9rem;
@@ -808,6 +853,10 @@ section {
   }
 
   .contact-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .about-layout {
     grid-template-columns: minmax(0, 1fr);
   }
 }

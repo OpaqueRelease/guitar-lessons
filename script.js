@@ -2,6 +2,7 @@ const translations = {
   en: {
     "brand.name": "Studio Fingerstyle Kitare",
     "brand.tagline": "Modern Fingerstyle Techniques",
+    "nav.about": "About me",
     "nav.lessons": "What I teach",
     "nav.videos": "Techniques",
     "nav.pricing": "Prices",
@@ -47,6 +48,19 @@ const translations = {
     "lessons.cards.mindset.title": "Practice mindset for advanced guitar students",
     "lessons.cards.mindset.body":
       "Short, realistic practice plans that fit around work, family and life — without losing progress.",
+
+    "about.eyebrow": "About me",
+    "about.title": " ",
+    "about.subtitle": " ",
+    "about.point1.title": "From music school to modern fingerstyle",
+    "about.point1.body":
+      "I began on classical guitar in music school and gradually focused on modern music arranged for a single guitar, continually learning for the last 20 years.",
+    "about.point2.title": "Covers and original instrumental music",
+    "about.point2.body":
+      "I arrange songs for solo guitar and write my own instrumental pieces.",
+    "about.point3.title": "Performing as a one‑man‑band guitarist",
+    "about.point3.body":
+      "On stage I perform solo with acoustic guitar, using modern fingerstyle to cover bass, chords, percussion and melody.",
 
     "videos.eyebrow": "Technique preview",
     "videos.title": "Short examples of advanced fingerstyle ideas.",
@@ -112,12 +126,12 @@ const translations = {
 
     "footer.copy":
       "© <span id=\"year\"></span> Studio Fingerstyle Kitare – Fingerstyle guitar lessons for advanced players.",
-    "footer.meta":
-      " ",
+    "footer.meta": " ",
   },
   sl: {
     "brand.name": "Studio Fingerstyle Kitare",
     "brand.tagline": "Sodobne fingerstyle tehnike",
+    "nav.about": "O meni",
     "nav.lessons": "Kaj poučujem",
     "nav.videos": "Tehnike",
     "nav.pricing": "Cenik",
@@ -162,6 +176,19 @@ const translations = {
     "lessons.cards.rhythm.body": " ",
     "lessons.cards.mindset.title": "Vaje za napredne kitariste",
     "lessons.cards.mindset.body": " ",
+
+    "about.eyebrow": "O meni",
+    "about.title": " ",
+    "about.subtitle": " ",
+    "about.point1.title": "Klasična osnova, fokus na fingerstyle",
+    "about.point1.body":
+      "Po začetku v glasbeni šoli sem se osredotočil na sodobno glasbo, prirejeno za eno kitaro. Novo znanje aktivno pridobivam že 20 let.",
+    "about.point2.title": "Priredbe in lastne instrumentalne skladbe",
+    "about.point2.body":
+      "Pesmi, ki so mi blizu, prirejam za solo kitaro in pišem lastne instrumentalne skladbe.",
+    "about.point3.title": "Nastopam kot »one‑man‑band« kitarist",
+    "about.point3.body":
+      "Na odru nastopam sam z akustično kitaro – s sodobnim fingerstyle pristopom zapolnim vlogo celotnega benda: bas, akordi, perkusija in melodija.",
 
     "videos.eyebrow": "Predogled tehnik",
     "videos.title": "Kratki primeri naprednih fingerstyle idej.",
