@@ -17,10 +17,10 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   </head>
-  <body>
+  <body id="top">
     <header class="site-header">
       <div class="container header-inner">
-        <div class="logo">
+        <a href="index.html#top" class="logo">
           <div class="logo-mark" aria-hidden="true">
             <svg
               viewBox="0 0 40 40"
@@ -87,7 +87,7 @@
               >Modern Fingerstyle Guitar</span
             >
           </div>
-        </div>
+        </a>
         <nav class="main-nav" aria-label="Primary">
           <button
             class="nav-toggle"
@@ -102,6 +102,9 @@
             <li><a href="#videos" data-i18n="nav.videos">Technique videos</a></li>
             <li><a href="#pricing" data-i18n="nav.pricing">Prices</a></li>
             <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+            <li>
+              <a href="performances.html" data-i18n="nav.performances">Live performances</a>
+            </li>
           </ul>
           <div class="lang-switch" aria-label="Language selector">
             <button class="lang-btn active" data-lang="sl">SL</button>
@@ -305,7 +308,7 @@
               </div>
               <h3 data-i18n="videos.items.1.title">Thumb–melody independence</h3>
               <p data-i18n="videos.items.1.body">
-                Keeping a steady bass pattern while your fingers play a flowing
+                Keeping a steady bass pattern while the picking fingers play a flowing
                 melody on top.
               </p>
             </article>
@@ -479,7 +482,7 @@
             </div>
           </div>
 
-          <form class="contact-form" id="contact-form">
+          <form class="contact-form" id="contact-form" data-contact-form="lessons">
             <div class="field">
               <label for="name" data-i18n="contact.form.nameLabel">Name</label>
               <input
@@ -502,7 +505,7 @@
                 required
               />
             </div>
-           
+
             <div class="field">
               <label for="message" data-i18n="contact.form.messageLabel"
                 >What should the lessons focus on?</label
@@ -519,7 +522,12 @@
                 Send request for free intro lesson
               </span>
             </button>
-            <p class="form-success" id="form-success" hidden></p>
+            <p
+              class="form-success"
+              id="form-success"
+              data-contact-success="lessons"
+              hidden
+            ></p>
           </form>
         </div>
       </section>
@@ -536,5 +544,3 @@
     <script src="script.js"></script>
   </body>
 </html>
-
-

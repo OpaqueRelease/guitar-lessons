@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="sl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solo fingerstyle nastopi – Timen</title>
+    <meta
+      name="description"
+      content="Solo fingerstyle kitara za dogodke, lokale in koncerte. Timen igra instrumentalne fingerstyle skladbe kot glasbena podlaga ali poslušalni koncert."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html#top" class="logo">
+          <div class="logo-mark" aria-hidden="true">
+            <svg
+              viewBox="0 0 40 40"
+              xmlns="http://www.w3.org/2000/svg"
+              role="presentation"
+            >
+              <defs>
+                <linearGradient
+                  id="logoGrad"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="100%"
+                >
+                  <stop offset="0%" stop-color="#ffcf86" />
+                  <stop offset="50%" stop-color="#f5b567" />
+                  <stop offset="100%" stop-color="#67d7f5" />
+                </linearGradient>
+              </defs>
+              <path
+                d="M20 3 C11 5,4 13,6 23c2 10,8 14,14 14s12-4,14-14C36 13,29 5,20 3z"
+                fill="url(#logoGrad)"
+                stroke="#020617"
+                stroke-width="1"
+                opacity="0.95"
+              />
+              <line
+                x1="14"
+                y1="9"
+                x2="14"
+                y2="29"
+                stroke="#020617"
+                stroke-width="1"
+                stroke-linecap="round"
+                opacity="0.75"
+              />
+              <line
+                x1="20"
+                y1="7"
+                x2="20"
+                y2="30"
+                stroke="#020617"
+                stroke-width="1.1"
+                stroke-linecap="round"
+                opacity="0.85"
+              />
+              <line
+                x1="26"
+                y1="9"
+                x2="26"
+                y2="29"
+                stroke="#020617"
+                stroke-width="1"
+                stroke-linecap="round"
+                opacity="0.75"
+              />
+            </svg>
+          </div>
+          <div class="logo-text">
+            <span data-i18n="brand.name">Studio Fingerstyle Kitare</span>
+            <span class="logo-sub" data-i18n="brand.tagline"
+              >Modern Fingerstyle Guitar</span
+            >
+          </div>
+        </a>
+        <nav class="main-nav" aria-label="Primary">
+          <button
+            class="nav-toggle"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span></span><span></span>
+          </button>
+          <ul class="nav-links">
+            <li>
+              <a href="index.html#about" data-i18n="nav.about">About the teacher</a>
+            </li>
+            <li>
+              <a href="index.html#lessons" data-i18n="nav.lessons"
+                >What students learn</a
+              >
+            </li>
+            <li>
+              <a href="index.html#videos" data-i18n="nav.videos">Technique videos</a>
+            </li>
+            <li>
+              <a href="index.html#pricing" data-i18n="nav.pricing">Prices</a>
+            </li>
+            <li>
+              <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+            </li>
+            <li>
+              <a href="#performances" data-i18n="nav.performances"
+                >Live performances</a
+              >
+            </li>
+          </ul>
+          <div class="lang-switch" aria-label="Language selector">
+            <button class="lang-btn active" data-lang="sl">SL</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="performances" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-content">
+            <p class="eyebrow" data-i18n="performances.eyebrow">
+              Live performances
+            </p>
+            <h1 data-i18n="performances.title">
+              Solo fingerstyle guitar for events and venues.
+            </h1>
+            <p class="hero-subtitle" data-i18n="performances.subtitle">
+              Timen plays modern instrumental fingerstyle sets for bars, private
+              events and concerts – as subtle background music or focused
+              listening.
+            </p>
+            <div class="hero-actions">
+              <a
+                href="#performances-contact"
+                class="btn primary"
+                data-i18n="performances.hero.ctaContact"
+              >
+                Ask about a date
+              </a>
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-card">
+              <div class="hero-wave"></div>
+              <div class="hero-stats">
+                <div class="stat">
+                  <span
+                    class="stat-number"
+                    data-i18n="performances.stat1Number"
+                    >45–90 min</span
+                  >
+                  <span
+                    class="stat-label"
+                    data-i18n="performances.stat1Label"
+                    >Typical set length</span
+                  >
+                </div>
+                <div class="stat">
+                  <span
+                    class="stat-number"
+                    data-i18n="performances.stat2Number"
+                    >Solo</span
+                  >
+                  <span
+                    class="stat-label"
+                    data-i18n="performances.stat2Label"
+                    >Fingerstyle guitar</span
+                  >
+                </div>
+                <div class="stat">
+                  <span
+                    class="stat-number"
+                    data-i18n="performances.stat3Number"
+                    >Events</span
+                  >
+                  <span
+                    class="stat-label"
+                    data-i18n="performances.stat3Label"
+                    >bars &amp; concerts</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="formats" class="section">
+        <div class="container">
+          <div class="lesson-grid">
+            <article class="card">
+              <h3 data-i18n="performances.cards.events.title">
+                Short sets at events
+              </h3>
+              <p data-i18n="performances.cards.events.body">
+                Instrumental pieces for openings, award segments or breaks
+                between talks – one or two songs that add atmosphere without
+                taking over the event.
+              </p>
+            </article>
+            <article class="card">
+              <h3 data-i18n="performances.cards.bars.title">
+                Background music for bars &amp; restaurants
+              </h3>
+              <p data-i18n="performances.cards.bars.body">
+                Longer sets of melodic fingerstyle guitar at conversational
+                volume, suited to wine bars, cafés or relaxed evening venues.
+              </p>
+            </article>
+            <article class="card">
+              <h3 data-i18n="performances.cards.concerts.title">
+                Solo concert‑style performance
+              </h3>
+              <p data-i18n="performances.cards.concerts.body">
+                A full concert‑length programme of original pieces and
+                arrangements, ideal for listening‑focused rooms and smaller
+                stages.
+              </p>
+            </article>
+          </div>
+
+          <div class="about-card performances-cta">
+            <p data-i18n="performances.cta.text">
+              To hear how Timen sounds live, visitors can open his YouTube
+              channel and send an email to ask about a specific date or event.
+            </p>
+            <a
+              href="https://www.youtube.com/@timen-music"
+              class="btn ghost"
+              target="_blank"
+              rel="noopener"
+            >
+              <span data-i18n="performances.cta.button">Open YouTube channel</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="performances-contact" class="section soft">
+        <div class="container contact-layout">
+          <div class="contact-copy">
+            <header class="section-header left">
+              <p class="eyebrow" data-i18n="performances.contact.eyebrow">
+                Booking
+              </p>
+              <h2 data-i18n="performances.contact.title">
+                Ask about dates for solo fingerstyle performances.
+              </h2>
+              <p class="section-intro" data-i18n="performances.contact.subtitle"></p>
+            </header>
+            <div class="contact-note">
+              <p data-i18n="performances.contact.note"></p>
+            </div>
+          </div>
+
+          <form
+            class="contact-form"
+            id="performances-contact-form"
+            data-contact-form="performances"
+          >
+            <div class="field">
+              <label
+                for="perf-name"
+                data-i18n="performances.contact.form.nameLabel"
+                >Name and organisation</label
+              >
+              <input
+                type="text"
+                id="perf-name"
+                name="name"
+                autocomplete="name"
+                required
+              />
+            </div>
+            <div class="field">
+              <label
+                for="perf-email"
+                data-i18n="performances.contact.form.emailLabel"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="perf-email"
+                name="email"
+                autocomplete="email"
+                required
+              />
+            </div>
+            <div class="field">
+              <label
+                for="perf-message"
+                data-i18n="performances.contact.form.messageLabel"
+                >Event details and preferred dates</label
+              >
+              <textarea
+                id="perf-message"
+                name="message"
+                rows="4"
+                data-i18n-placeholder="performances.contact.form.messagePlaceholder"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn primary full">
+              <span data-i18n="performances.contact.form.submit">
+                Send performance enquiry
+              </span>
+            </button>
+            <p
+              class="form-success"
+              id="performances-form-success"
+              data-contact-success="performances"
+              hidden
+            ></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p data-i18n="footer.copy">
+          © <span id="year"></span> Kitara Studio – Guitar lessons for adults.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

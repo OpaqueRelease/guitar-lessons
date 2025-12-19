@@ -663,6 +663,23 @@ a {
   margin-bottom: 0;
 }
 
+.performances-cta {
+  margin-top: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.performances-cta p {
+  flex: 1 1 260px;
+}
+
+.performances-cta .btn {
+  flex-shrink: 0;
+}
+
 .contact-note {
   margin-top: 14px;
   font-size: 0.9rem;

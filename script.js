@@ -4,6 +4,7 @@ const translations = {
     "brand.tagline": "Modern Fingerstyle Techniques",
     "nav.about": "About the teacher",
     "nav.lessons": "What students learn",
+    "nav.performances": "Live performances",
     "nav.videos": "Techniques",
     "nav.pricing": "Prices",
     "nav.contact": "Contact",
@@ -125,6 +126,42 @@ const translations = {
       "Students can describe their experience, favorite artists, and what they would love to be able to play.",
     "contact.form.submit": "Send request for free intro lesson",
 
+    "performances.eyebrow": "Live performances",
+    "performances.title": "Solo fingerstyle guitar for events and venues.",
+    "performances.subtitle":
+      "Timen plays modern instrumental fingerstyle sets for bars, private events and concerts – as subtle background music or focused listening.",
+    "performances.hero.ctaContact": "Ask about a date",
+    "performances.stat1Number": "45–90 min",
+    "performances.stat1Label": "Typical set length",
+    "performances.stat2Number": "Solo",
+    "performances.stat2Label": "Fingerstyle guitar",
+    "performances.stat3Number": "Events",
+    "performances.stat3Label": "bars & concerts",
+    "performances.cards.events.title": "Short sets at events",
+    "performances.cards.events.body":
+      "Instrumental pieces for openings, award segments or breaks between talks – one or two songs that add atmosphere without taking over the event.",
+    "performances.cards.bars.title": "Background music for bars & restaurants",
+    "performances.cards.bars.body":
+      "Longer sets of melodic fingerstyle guitar at conversational volume, suited to wine bars, cafés or relaxed evening venues.",
+    "performances.cards.concerts.title": "Solo concert‑style performance",
+    "performances.cards.concerts.body":
+      "A full concert‑length programme of original pieces and arrangements, ideal for listening‑focused rooms and smaller stages.",
+    "performances.cta.text":
+      "To hear how Timen sounds live, visitors can open his YouTube channel and send an email or use the contact section on the lessons page to ask about a specific date or event.",
+    "performances.cta.button": "Open YouTube channel",
+
+    "performances.contact.eyebrow": "Booking",
+    "performances.contact.title":
+      "Ask about dates for solo fingerstyle performances.",
+    "performances.contact.subtitle": "",
+    "performances.contact.note": "",
+    "performances.contact.form.nameLabel": "Name and organisation",
+    "performances.contact.form.emailLabel": "Email",
+    "performances.contact.form.messageLabel": "Event details and preferred dates",
+    "performances.contact.form.messagePlaceholder":
+      "Briefly describe the event or venue, possible dates, location and whether the performance is background music or a listening concert.",
+    "performances.contact.form.submit": "Send performance enquiry",
+
     "footer.copy":
       "© <span id=\"year\"></span> Studio Fingerstyle Kitare – Fingerstyle guitar lessons for advanced players.",
     "footer.meta": " ",
@@ -134,6 +171,7 @@ const translations = {
     "brand.tagline": "Sodobne fingerstyle tehnike",
     "nav.about": "O učitelju",
     "nav.lessons": "Kaj se učenci naučijo",
+    "nav.performances": "Nastopi v živo",
     "nav.videos": "Tehnike",
     "nav.pricing": "Cenik",
     "nav.contact": "Kontakt",
@@ -253,6 +291,43 @@ const translations = {
       "Učenci lahko zapišejo svoje izkušnje, najljubše izvajalce in kaj bi radi znali igrati.",
     "contact.form.submit": "Pošlji povpraševanje za uvodno uro",
 
+    "performances.contact.eyebrow": "Rezervacije",
+    "performances.contact.title":
+      "Povpraševanje za nastop solo fingerstyle kitare.",
+    "performances.contact.subtitle": "",
+    "performances.contact.note": "",
+    "performances.contact.form.nameLabel": "Ime in organizacija",
+    "performances.contact.form.emailLabel": "Email",
+    "performances.contact.form.messageLabel":
+      "Opis dogodka in želeni termini",
+    "performances.contact.form.messagePlaceholder":
+      "Na kratko opišite dogodek ali lokal, možne termine, lokacijo ter ali gre za glasbeno podlago ali poslušalni koncert.",
+    "performances.contact.form.submit": "Pošlji povpraševanje za nastop",
+
+    "performances.eyebrow": "Nastopi v živo",
+    "performances.title": "Solo fingerstyle kitara za dogodke in lokale.",
+    "performances.subtitle":
+      "Timen igra sodobne instrumentalne fingerstyle sete za lokale, zasebne dogodke in koncerte – kot nežna spremljava ali kot poslušalni koncert.",
+    "performances.hero.ctaContact": "Povprašaj za termin",
+    "performances.stat1Number": "45–90 min",
+    "performances.stat1Label": "Tipična dolžina nastopa",
+    "performances.stat2Number": "Solo",
+    "performances.stat2Label": "Fingerstyle kitara",
+    "performances.stat3Number": "Dogodki",
+    "performances.stat3Label": "bari in koncerti",
+    "performances.cards.events.title": "Krajši nastopi na dogodkih",
+    "performances.cards.events.body":
+      "Instrumentalne skladbe za otvoritve, podelitve ali pavze med govori – ena ali dve skladbi, ki ustvarita vzdušje, ne da bi zasenčili dogodek.",
+    "performances.cards.bars.title": "Glasbena podlaga za bare in restavracije",
+    "performances.cards.bars.body":
+      "Daljši seti melodične fingerstyle kitare pri pogovorni glasnosti, primerni za vinoteke, kavarne ali sproščene večerne lokale.",
+    "performances.cards.concerts.title": "Samostojen koncertni nastop",
+    "performances.cards.concerts.body":
+      "Celovečerni program avtorskih skladb in priredb, primeren za poslušalne dvorane in manjše odre.",
+    "performances.cta.text":
+      "Za občutek, kako Timen zveni v živo, je na voljo njegov YouTube kanal; za termin ali dogodek se lahko pošlje e‑pošta ali uporabi kontaktni obrazec na strani z lekcijami.",
+    "performances.cta.button": "Odpri YouTube kanal",
+
     "footer.copy":
       "© <span id=\"year\"></span> Studio Fingerstyle Kitare – fingerstyle kitare za napredne kitariste.",
     "footer.meta":
@@ -344,49 +419,62 @@ function initSmoothScrolling() {
 }
 
 function initContactForm() {
-  const form = document.getElementById("contact-form");
-  const success = document.getElementById("form-success");
+  const forms = document.querySelectorAll("[data-contact-form]");
 
-  if (!form || !success) return;
+  if (!forms.length) return;
 
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
+  forms.forEach((form) => {
+    const context = form.getAttribute("data-contact-form") || "lessons";
+    const success = document.querySelector(
+      `[data-contact-success="${context}"]`
+    );
 
-    const formData = new FormData(form);
-    const name = formData.get("name") || "";
-    const email = formData.get("email") || "";
-    const experience = formData.get("experience") || "";
-    const format = formData.get("format") || "";
-    const message = formData.get("message") || "";
+    if (!success) return;
 
-    const lang = document.documentElement.lang === "sl" ? "sl" : "en";
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
 
-    const subject =
-      lang === "sl"
-        ? "Povpraševanje za uvodno uro kitare"
-        : "Request for free introductory guitar lesson";
+      const formData = new FormData(form);
+      const name = formData.get("name") || "";
+      const email = formData.get("email") || "";
+      const message = formData.get("message") || "";
 
-    const bodyLines = [
-      `Name / Ime: ${name}`,
-      `Email: ${email}`,
-      `Level / Znanje: ${experience}`,
-      `Preferred format / Način: ${format}`,
-      "",
-      "Message / Sporočilo:",
-      `${message}`,
-    ];
+      const lang = document.documentElement.lang === "sl" ? "sl" : "en";
 
-    const mailto = `mailto:your.email@example.com?subject=${encodeURIComponent(
-      subject
-    )}&body=${encodeURIComponent(bodyLines.join("\n"))}`;
+      const subject =
+        lang === "sl"
+          ? context === "performances"
+            ? "Povpraševanje za nastop (solo fingerstyle kitara)"
+            : "Povpraševanje za uvodno uro kitare"
+          : context === "performances"
+          ? "Enquiry about solo fingerstyle performance"
+          : "Request for free introductory guitar lesson";
 
-    window.location.href = mailto;
+      const bodyLines = [
+        `Name / Ime: ${name}`,
+        `Email: ${email}`,
+        `Context / Vprašanje: ${
+          context === "performances"
+            ? "Performances / Nastopi"
+            : "Lessons / Ure"
+        }`,
+        "",
+        "Message / Sporočilo:",
+        `${message}`,
+      ];
 
-    success.hidden = false;
-    success.textContent =
-      lang === "sl"
-        ? "Odpre se e‑pošta z vnaprej izpolnjenimi podatki. Po potrebi jih je mogoče dopolniti in poslati."
-        : "An email draft opens with the student's details already filled in. The message can be edited before sending.";
+      const mailto = `mailto:your.email@example.com?subject=${encodeURIComponent(
+        subject
+      )}&body=${encodeURIComponent(bodyLines.join("\n"))}`;
+
+      window.location.href = mailto;
+
+      success.hidden = false;
+      success.textContent =
+        lang === "sl"
+          ? "Odpre se e‑pošta z vnaprej izpolnjenimi podatki. Po potrebi jih je mogoče dopolniti in poslati."
+          : "An email draft opens with the student's details already filled in. The message can be edited before sending.";
+    });
   });
 }
 
