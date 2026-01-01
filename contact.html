@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="sl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt – Studio Fingerstyle Kitare</title>
+    <meta
+      name="description"
+      content="Kontakt za ure fingerstyle kitare in nastope v živo. Pošljite sporočilo glede terminov, lokacije in želja."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html#top" class="logo">
+          <div class="logo-mark" aria-hidden="true">
+            <svg
+              viewBox="0 0 40 40"
+              xmlns="http://www.w3.org/2000/svg"
+              role="presentation"
+            >
+              <defs>
+                <linearGradient
+                  id="logoGrad"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="100%"
+                >
+                  <stop offset="0%" stop-color="#ffcf86" />
+                  <stop offset="50%" stop-color="#f5b567" />
+                  <stop offset="100%" stop-color="#67d7f5" />
+                </linearGradient>
+              </defs>
+              <path
+                d="M20 3 C11 5,4 13,6 23c2 10,8 14,14 14s12-4,14-14C36 13,29 5,20 3z"
+                fill="url(#logoGrad)"
+                stroke="#020617"
+                stroke-width="1"
+                opacity="0.95"
+              />
+              <line
+                x1="14"
+                y1="9"
+                x2="14"
+                y2="29"
+                stroke="#020617"
+                stroke-width="1"
+                stroke-linecap="round"
+                opacity="0.75"
+              />
+              <line
+                x1="20"
+                y1="7"
+                x2="20"
+                y2="30"
+                stroke="#020617"
+                stroke-width="1.1"
+                stroke-linecap="round"
+                opacity="0.85"
+              />
+              <line
+                x1="26"
+                y1="9"
+                x2="26"
+                y2="29"
+                stroke="#020617"
+                stroke-width="1"
+                stroke-linecap="round"
+                opacity="0.75"
+              />
+            </svg>
+          </div>
+          <div class="logo-text">
+            <span data-i18n="brand.name">Studio Fingerstyle Kitare</span>
+            <span class="logo-sub" data-i18n="brand.tagline"
+              >Modern Fingerstyle Guitar</span
+            >
+          </div>
+        </a>
+        <nav class="main-nav" aria-label="Primary">
+          <button
+            class="nav-toggle"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span></span><span></span>
+          </button>
+          <ul class="nav-links">
+            <li>
+              <a href="index.html#top" data-i18n="nav.school">Šola kitare</a>
+            </li>
+            <li>
+              <a href="performances.html" data-i18n="nav.performances"
+                >Nastopanje</a
+              >
+            </li>
+            <li>
+              <a href="contact.html" data-i18n="nav.contact">Kontakt</a>
+            </li>
+          </ul>
+          <div class="lang-switch" aria-label="Language selector">
+            <button class="lang-btn active" data-lang="sl">SL</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="contact" class="section soft">
+        <div class="container contact-layout">
+          <div class="contact-copy">
+            <header class="section-header left">
+              <p class="eyebrow" data-i18n="contact.eyebrow">Kontakt</p>
+              <h2 data-i18n="contact.title">
+                Contact about lessons or performances.
+              </h2>
+              <p class="section-intro" data-i18n="contact.subtitle">
+                Visitors can send a short message about lessons, performances or
+                general questions. Timen replies with details and possible
+                dates.
+              </p>
+            </header>
+            <div class="contact-note">
+              <p data-i18n="contact.note"></p>
+            </div>
+          </div>
+
+          <form
+            class="contact-form"
+            id="contact-form"
+            data-contact-form="contact"
+          >
+            <div class="field">
+              <label for="name" data-i18n="contact.form.nameLabel">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                autocomplete="name"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="email" data-i18n="contact.form.emailLabel"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="email"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <label for="message" data-i18n="contact.form.messageLabel"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                data-i18n-placeholder="contact.form.messagePlaceholder"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn primary full">
+              <span data-i18n="contact.form.submit">
+                Send message
+              </span>
+            </button>
+            <p
+              class="form-success"
+              id="form-success"
+              data-contact-success="contact"
+              hidden
+            ></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p data-i18n="footer.copy">
+          © <span id="year"></span> Kitara Studio – Guitar lessons for adults.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+

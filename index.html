@@ -97,13 +97,16 @@
             <span></span><span></span>
           </button>
           <ul class="nav-links">
-            <li><a href="#about" data-i18n="nav.about">About the teacher</a></li>
-            <li><a href="#lessons" data-i18n="nav.lessons">What students learn</a></li>
-            <li><a href="#videos" data-i18n="nav.videos">Technique videos</a></li>
-            <li><a href="#pricing" data-i18n="nav.pricing">Prices</a></li>
-            <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
             <li>
-              <a href="performances.html" data-i18n="nav.performances">Live performances</a>
+              <a href="index.html#top" data-i18n="nav.school">Šola kitare</a>
+            </li>
+            <li>
+              <a href="performances.html" data-i18n="nav.performances"
+                >Nastopanje</a
+              >
+            </li>
+            <li>
+              <a href="contact.html" data-i18n="nav.contact">Kontakt</a>
             </li>
           </ul>
           <div class="lang-switch" aria-label="Language selector">
@@ -439,79 +442,6 @@
         </div>
       </section>
 
-      <!-- CONTACT -->
-      <section id="contact" class="section soft">
-        <div class="container contact-layout">
-          <div class="contact-copy">
-            <header class="section-header left">
-              <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
-              <h2 data-i18n="contact.title">
-                Planning a free introductory lesson.
-              </h2>
-              <p class="section-intro" data-i18n="contact.subtitle">
-                Visitors can share a bit about their level, what they would like
-                to play, and whether they prefer online or in‑person lessons.
-                The teacher then replies with a few suggested times.
-              </p>
-            </header>
-            <div class="contact-note">
-              <p data-i18n="contact.note">
-                Students can also email the teacher directly at
-                <span class="contact-email">your.email@example.com</span>.
-                This placeholder should be replaced with the real contact email.
-              </p>
-            </div>
-          </div>
-
-          <form class="contact-form" id="contact-form" data-contact-form="lessons">
-            <div class="field">
-              <label for="name" data-i18n="contact.form.nameLabel">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                autocomplete="name"
-                required
-              />
-            </div>
-            <div class="field">
-              <label for="email" data-i18n="contact.form.emailLabel"
-                >Email</label
-              >
-              <input
-                type="email"
-                id="email"
-                name="email"
-                autocomplete="email"
-                required
-              />
-            </div>
-
-            <div class="field">
-              <label for="message" data-i18n="contact.form.messageLabel"
-                >What should the lessons focus on?</label
-              >
-              <textarea
-                id="message"
-                name="message"
-                rows="4"
-                data-i18n-placeholder="contact.form.messagePlaceholder"
-              ></textarea>
-            </div>
-            <button type="submit" class="btn primary full">
-              <span data-i18n="contact.form.submit">
-                Send request for free intro lesson
-              </span>
-            </button>
-            <p
-              class="form-success"
-              id="form-success"
-              data-contact-success="lessons"
-              hidden
-            ></p>
-          </form>
-        </div>
-      </section>
     </main>
 
     <footer class="site-footer">

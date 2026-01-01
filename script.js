@@ -4,6 +4,7 @@ const translations = {
     "brand.tagline": "Modern Fingerstyle Techniques",
     "nav.about": "About the teacher",
     "nav.lessons": "What students learn",
+    "nav.school": "Guitar school",
     "nav.performances": "Live performances",
     "nav.videos": "Techniques",
     "nav.pricing": "Prices",
@@ -107,11 +108,10 @@ const translations = {
       "First 45‑minute introductory lesson is free (online or in‑person).",
 
     "contact.eyebrow": "Contact",
-    "contact.title": "Planning a free introductory lesson.",
+    "contact.title": "Contact about lessons or performances.",
     "contact.subtitle":
-      "Visitors can share a bit about their level, what they would like to play, and whether they prefer online or in‑person lessons. The teacher then replies with a few suggested times.",
-    "contact.note":
-      "Students can also email the teacher directly at <span class=\"contact-email\">your.email@example.com</span>. This placeholder should be replaced with the real contact email.",
+      "Visitors can send a short message about lessons, performances or general questions. Timen replies with details and possible dates.",
+    "contact.note": "",
 
     "contact.form.nameLabel": "Name",
     "contact.form.emailLabel": "Email",
@@ -119,10 +119,8 @@ const translations = {
     "contact.form.formatOnline": "Online",
     "contact.form.formatInPerson": "In person",
     "contact.form.formatEither": "Either",
-    "contact.form.messageLabel": "What should the lessons focus on?",
-    "contact.form.messagePlaceholder":
-      "Students can describe their experience, favorite artists, and what they would love to be able to play.",
-    "contact.form.submit": "Send request for free intro lesson",
+    "contact.form.messageLabel": "Message",
+    "contact.form.submit": "Send message",
 
     "performances.eyebrow": "Live performances",
     "performances.title": "Solo fingerstyle guitar for events and venues.",
@@ -168,8 +166,9 @@ const translations = {
     "brand.name": "Studio Fingerstyle Kitare",
     "brand.tagline": "Sodobne fingerstyle tehnike",
     "nav.about": "O učitelju",
-    "nav.lessons": "Kaj se učenci naučijo",
-    "nav.performances": "Nastopi v živo",
+    "nav.lessons": "Nauči se",
+    "nav.school": "Šola kitare",
+    "nav.performances": "Nastopanje",
     "nav.videos": "Tehnike",
     "nav.pricing": "Cenik",
     "nav.contact": "Kontakt",
@@ -180,7 +179,7 @@ const translations = {
     "hero.subtitle":
       "Individualne ure za napredne kitariste ali odrasle začetnike. Učenci se učijo sodobnega fingerstylea, improvizacije in pisanja lastnih instrumentalnih aranžmajev.",
     "hero.ctaPrimary": "Rezerviraj brezplačno uvodno uro",
-    "hero.ctaSecondary": "Poglej, kaj se učenci naučijo",
+    "hero.ctaSecondary": "Nauči se fingerstyle tehnike",
     "hero.badge": "Brezplačna 45‑minutna ura",
     "hero.note":
       "V Ljubljani ali online.",
@@ -194,7 +193,7 @@ const translations = {
     "hero.stat3Number": "Napredni",
     "hero.stat3Label": "tečaj kitare",
 
-    "lessons.eyebrow": "Kaj se učenci naučijo",
+    "lessons.eyebrow": "Nauči se",
     "lessons.title": " ",
     "lessons.subtitle": " ",
     "lessons.cards.fingerstyle.title": "Tehnike sodobnega fingerstylea",
@@ -249,9 +248,9 @@ const translations = {
       "Uporaba tona, dinamike in prostora, da tudi enostavne linije zvenijo čustveno.",
 
     "pricing.eyebrow": "Cenik",
-    "pricing.title": "Osredotočene 45‑ ali 60‑minutne ure, prva 45‑minutna je brezplačna.",
+    "pricing.title": "45‑ ali 60‑minutne vaje",
     "pricing.subtitle":
-      "Uvodna ura je popolnoma brezplačna – na njej se pogovorijo o ciljih, nekaj zaigrajo in pripravijo realen načrt.",
+      "Uvodna vaja je popolnoma brezplačna – na njej se pogovorimo o ciljih, nekaj zaigramo in pripravimo realen načrt.",
 
     "pricing.online.label": "Online",
     "pricing.online.title": "Online ure (video klic)",
@@ -270,22 +269,16 @@ const translations = {
       "Prva 45‑minutna uvodna ura je brezplačna (online ali v živo).",
 
     "contact.eyebrow": "Kontakt",
-    "contact.title": "Dogovor za brezplačno uvodno uro.",
-    "contact.subtitle":
-      "Obiskovalec zapiše nekaj o svojem znanju, kaj želi igrati in ali mu bolj ustreza online ali ura v živo. Učitelj nato odgovori s predlogi terminov.",
-    "contact.note":
-      "Možno je pisati neposredno na <span class=\"contact-email\">your.email@example.com</span>. Ta naslov naj se zamenja s pravim emailom.",
-
+    "contact.title": "Kontakt za vprašanja glede učnih ur ali nastopov.",
+    "contact.subtitle": "Uporabite obrazec ali pošljite sporočilo na <a href=\"mailto:your.email@example.com\" style=\"color: #1a0dab; text-decoration: underline; font-weight: 600;\">email</a>.",
     "contact.form.nameLabel": "Ime",
     "contact.form.emailLabel": "Email",
     "contact.form.formatLabel": "Način učenja",
     "contact.form.formatOnline": "Online",
     "contact.form.formatInPerson": "V živo",
     "contact.form.formatEither": "Kakorkoli",
-    "contact.form.messageLabel": "Na čem naj bo poudarek pri učenju?",
-    "contact.form.messagePlaceholder":
-      "Učenci lahko zapišejo svoje izkušnje, najljubše izvajalce in kaj bi radi znali igrati.",
-    "contact.form.submit": "Pošlji povpraševanje za uvodno uro",
+    "contact.form.messageLabel": "Sporočilo",
+    "contact.form.submit": "Pošlji sporočilo",
 
     "performances.contact.eyebrow": "Rezervacije",
     "performances.contact.title":
@@ -321,8 +314,8 @@ const translations = {
     "performances.cards.concerts.body":
       "Celovečerni program avtorskih skladb in priredb, primeren za poslušalne dvorane in manjše odre.",
     "performances.cta.text":
-      "Za občutek, kako zvenijo skladbe v živo, je na voljo naš YouTube kanal; za termin ali dogodek se lahko pošlje e‑pošta ali uporabi kontaktni obrazec na strani z lekcijami.",
-    "performances.cta.button": "Odpri YouTube kanal",
+      "Za občutek, kako zvenijo nastopi v živo, je na voljo naš YouTube kanal.",
+    "performances.cta.button": "YouTube kanal",
 
     "footer.copy":
       "© <span id=\"year\"></span> Studio Fingerstyle Kitare – fingerstyle kitare za napredne kitariste.",
@@ -420,7 +413,7 @@ function initContactForm() {
   if (!forms.length) return;
 
   forms.forEach((form) => {
-    const context = form.getAttribute("data-contact-form") || "lessons";
+    const context = form.getAttribute("data-contact-form") || "contact";
     const success = document.querySelector(
       `[data-contact-success="${context}"]`
     );
@@ -441,10 +434,10 @@ function initContactForm() {
         lang === "sl"
           ? context === "performances"
             ? "Povpraševanje za nastop (solo fingerstyle kitara)"
-            : "Povpraševanje za uvodno uro kitare"
+            : "Sporočilo s spletne strani (ure ali nastopi)"
           : context === "performances"
           ? "Enquiry about solo fingerstyle performance"
-          : "Request for free introductory guitar lesson";
+          : "Message from website (lessons or performances)";
 
       const bodyLines = [
         `Name / Ime: ${name}`,
@@ -452,7 +445,7 @@ function initContactForm() {
         `Context / Vprašanje: ${
           context === "performances"
             ? "Performances / Nastopi"
-            : "Lessons / Ure"
+            : "General contact / Splošen kontakt"
         }`,
         "",
         "Message / Sporočilo:",
