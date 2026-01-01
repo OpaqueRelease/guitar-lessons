@@ -57,12 +57,10 @@ const translations = {
     "about.point1.title": "From music school to fingerstyle",
     "about.point1.body":
       "After starting classical guitar in music school, Timen focused on modern fingerstyle music and has been actively learning for over 20 years.",
-    "about.point2.title": "Covers and original instrumental pieces",
-    "about.point2.body":
-      "He arranges songs that resonate with him for solo guitar and writes his own instrumental pieces.",
-    "about.point3.title": "A one‑man‑band guitarist",
-    "about.point3.body":
-      "On stage Timen often performs solo with acoustic guitar, using modern fingerstyle to fill the role of a full band: bass, chords, percussion and melody.",
+    "about.point2.title": "",
+    "about.point2.body": "",
+    "about.point3.title": "",
+    "about.point3.body": "",
 
     "videos.eyebrow": "Technique preview",
     "videos.title": "Short examples of advanced fingerstyle ideas.",
@@ -129,7 +127,7 @@ const translations = {
     "performances.eyebrow": "Live performances",
     "performances.title": "Solo fingerstyle guitar for events and venues.",
     "performances.subtitle":
-      "Timen plays modern instrumental fingerstyle sets for bars, private events and concerts – as subtle background music or focused listening.",
+      "We offer modern instrumental fingerstyle sets for bars, private events and concerts – as subtle background music or focused listening.",
     "performances.hero.ctaContact": "Ask about a date",
     "performances.stat1Number": "45–90 min",
     "performances.stat1Label": "Typical set length",
@@ -147,7 +145,7 @@ const translations = {
     "performances.cards.concerts.body":
       "A full concert‑length programme of original pieces and arrangements, ideal for listening‑focused rooms and smaller stages.",
     "performances.cta.text":
-      "To hear how Timen sounds live, visitors can open his YouTube channel and send an email or use the contact section on the lessons page to ask about a specific date or event.",
+      "To hear how we sound live, visitors can open our YouTube channel and send an email or use the contact section on the lessons page to ask about a specific date or event.",
     "performances.cta.button": "Open YouTube channel",
 
     "performances.contact.eyebrow": "Booking",
@@ -221,13 +219,11 @@ const translations = {
     "about.subtitle": " ",
     "about.point1.title": "Iz šole za glasbo v fingerstyle",
     "about.point1.body":
-      "Po začetku v glasbeni šoli se je Timen osredotočil na sodobno fingerstyle glasbo, novo znanje pa aktivno pridobiva že 20 let.",
-    "about.point2.title": "Priredbe in lastne instrumentalne skladbe",
-    "about.point2.body":
-      "Pesmi, ki so mu blizu, prireja za solo kitaro in piše lastne instrumentalne skladbe.",
-    "about.point3.title": "»One‑man‑band« kitarist",
-    "about.point3.body":
-      "Na odru pogosto nastopa sam z akustično kitaro – s sodobnim fingerstyle pristopom zapolni vlogo celotnega benda: bas, akordi, perkusija in melodija.",
+      "Po začetku v glasbeni šoli se je Timen Stepišnik Perdih osredotočil na sodobno glasbo. Bil je član večih skupin v katerih je igral solo in ritem kitaro, obenem pa je pogosto nastopal tudi v solo fingerstyle izvedbah. Novo znanje aktivno pridobiva že 20 let.<br><br>Fingerstyle izvedbe navadno vključujejo priredbe popularnih pesmi, skladbe, napisane za solo kitaro in Timnove avtorske instrumentalne skladbe. Posnetke z nastopov in avtorskih skladb si lahko ogledate na <a href=\"https://www.youtube.com/@timen-music\" target=\"_blank\" rel=\"noopener\" style=\"color: #1a0dab; text-decoration: underline; font-weight: 600;\">YouTube kanalu</a>.",
+    "about.point2.title": "",
+    "about.point2.body": "",
+    "about.point3.title": "",
+    "about.point3.body": "",
 
     "videos.eyebrow": "Predogled tehnik",
     "videos.title": "Kratki primeri naprednih fingerstyle idej.",
@@ -307,7 +303,7 @@ const translations = {
     "performances.eyebrow": "Nastopi v živo",
     "performances.title": "Solo fingerstyle kitara za dogodke in lokale.",
     "performances.subtitle":
-      "Timen igra sodobne instrumentalne fingerstyle sete za lokale, zasebne dogodke in koncerte – kot nežna spremljava ali kot poslušalni koncert.",
+      "Ponujamo sodobne instrumentalne fingerstyle sete za lokale, zasebne dogodke in koncerte – kot nežna spremljava ali kot poslušalni koncert.",
     "performances.hero.ctaContact": "Povprašaj za termin",
     "performances.stat1Number": "45–90 min",
     "performances.stat1Label": "Tipična dolžina nastopa",
@@ -325,7 +321,7 @@ const translations = {
     "performances.cards.concerts.body":
       "Celovečerni program avtorskih skladb in priredb, primeren za poslušalne dvorane in manjše odre.",
     "performances.cta.text":
-      "Za občutek, kako Timen zveni v živo, je na voljo njegov YouTube kanal; za termin ali dogodek se lahko pošlje e‑pošta ali uporabi kontaktni obrazec na strani z lekcijami.",
+      "Za občutek, kako zvenijo skladbe v živo, je na voljo naš YouTube kanal; za termin ali dogodek se lahko pošlje e‑pošta ali uporabi kontaktni obrazec na strani z lekcijami.",
     "performances.cta.button": "Odpri YouTube kanal",
 
     "footer.copy":
