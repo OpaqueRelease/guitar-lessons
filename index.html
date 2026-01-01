@@ -442,6 +442,89 @@
         </div>
       </section>
 
+      <section id="contact-lessons" class="section soft">
+        <div class="container contact-layout">
+          <div class="contact-copy">
+            <header class="section-header left">
+              <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+              <h2 data-i18n="contact.title">
+                Contact about lessons or performances.
+              </h2>
+              <p class="section-intro" data-i18n="contact.subtitle">
+                Visitors can send a short message about lessons, performances or
+                general questions, or email
+                <a
+                  href="mailto:your.email@example.com"
+                  style="
+                    color: #1a0dab;
+                    text-decoration: underline;
+                    font-weight: 600;
+                  "
+                  >directly</a
+                >. Timen replies with details and possible dates.
+              </p>
+            </header>
+            <div class="contact-note">
+              <p data-i18n="contact.note"></p>
+            </div>
+          </div>
+
+          <form
+            class="contact-form"
+            id="lessons-contact-form"
+            data-contact-form="contact"
+          >
+            <div class="field">
+              <label for="lessons-name" data-i18n="contact.form.nameLabel"
+                >Name</label
+              >
+              <input
+                type="text"
+                id="lessons-name"
+                name="name"
+                autocomplete="name"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="lessons-email" data-i18n="contact.form.emailLabel"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="lessons-email"
+                name="email"
+                autocomplete="email"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <label for="lessons-message" data-i18n="contact.form.messageLabel"
+                >Message</label
+              >
+              <textarea
+                id="lessons-message"
+                name="message"
+                rows="4"
+                data-i18n-placeholder="contact.form.messagePlaceholder"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn primary full">
+              <span data-i18n="contact.form.submit">
+                Send message
+              </span>
+            </button>
+            <p
+              class="form-success"
+              id="lessons-form-success"
+              data-contact-success="contact"
+              hidden
+            ></p>
+          </form>
+        </div>
+      </section>
+
     </main>
 
     <footer class="site-footer">

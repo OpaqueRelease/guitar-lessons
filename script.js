@@ -3,34 +3,34 @@ const translations = {
     "brand.name": "Studio Fingerstyle Kitare",
     "brand.tagline": "Modern Fingerstyle Techniques",
     "nav.about": "About the teacher",
-    "nav.lessons": "What students learn",
+    "nav.lessons": "Learn",
     "nav.school": "Guitar school",
-    "nav.performances": "Live performances",
+    "nav.performances": "Performing",
     "nav.videos": "Techniques",
     "nav.pricing": "Prices",
     "nav.contact": "Contact",
 
     "hero.eyebrow": "Fingerstyle guitar lessons",
     "hero.title":
-      "The studio helps students master the guitar with <span>modern fingerstyle techniques</span>.",
+      "Learn to master the guitar with <span>modern fingerstyle techniques</span>.",
     "hero.subtitle":
-      "One‑to‑one lessons for advanced guitarists and adult beginners. Students learn modern fingerstyle, tasteful improvisation and how to write their own instrumental arrangements.",
+      "One‑to‑one lessons for advanced guitarists or adult beginners. Learn modern fingerstyle, improvisation and how to write your own instrumental arrangements.",
     "hero.ctaPrimary": "Book a free intro lesson",
-    "hero.ctaSecondary": "See what students learn",
+    "hero.ctaSecondary": "Learn fingerstyle techniques",
     "hero.badge": "Free 45‑minute session",
     "hero.note":
       "In Ljubljana or online.",
     "hero.sessionLabel": "Next available: this week",
     "hero.sessionText":
-      "Students can bring a song they love – the lesson turns it into a playable fingerstyle arrangement.",
+      "Bring a song you like – together you and Timen turn it into a playable fingerstyle arrangement.",
     "hero.stat1Number": "45–60 min",
     "hero.stat1Label": "Session length",
     "hero.stat2Number": "1 : 1",
     "hero.stat2Label": "Personal plan",
     "hero.stat3Number": "Advanced",
-    "hero.stat3Label": "guitar students",
+    "hero.stat3Label": "Guitar course",
 
-    "lessons.eyebrow": "What students learn",
+    "lessons.eyebrow": "Learn",
     "lessons.title": " ",
     "lessons.subtitle": " ",
     "lessons.cards.fingerstyle.title": "Modern fingerstyle techniques",
@@ -41,23 +41,21 @@ const translations = {
       "Improvisation that sounds complete on its own, without any backing track.",
     "lessons.cards.covers.title": "Writing instrumental arrangements",
     "lessons.cards.covers.body":
-      "Writing students’ own instrumental pieces and arrangements of songs they love.",
+      "Writing your own instrumental pieces and arrangements.",
     "lessons.cards.originals.title": "Writing original instrumental pieces",
     "lessons.cards.originals.body":
       "Develop your own ideas into complete songs with structure, mood and dynamic fingerstyle textures.",
     "lessons.cards.rhythm.title": "Groove, rhythm & timing",
-    "lessons.cards.rhythm.body":
-      "Lock in your timing, learn interesting grooves in odd meters and make even simple chords sound alive.",
+    "lessons.cards.rhythm.body": "",
     "lessons.cards.mindset.title": "Practice mindset for advanced guitar students",
-    "lessons.cards.mindset.body":
-      "Short, realistic practice plans that fit around work, family and life — without losing progress.",
+    "lessons.cards.mindset.body": "",
 
     "about.eyebrow": "About the teacher",
     "about.title": " ",
     "about.subtitle": " ",
     "about.point1.title": "From music school to fingerstyle",
     "about.point1.body":
-      "After starting classical guitar in music school, Timen focused on modern fingerstyle music and has been actively learning for over 20 years.",
+      "After learning classical guitar in music school, Timen Stepišnik Perdih focused on modern music. He has played lead and rhythm guitar in several bands and also performed solo in fingerstyle settings, actively developing his craft for over 20 years.<br><br>His fingerstyle sets usually include arrangements of popular songs, pieces written for solo guitar and Timen’s own instrumental compositions. Recordings from performances and original pieces can be heard on his <a href=\"https://www.youtube.com/@timen-music\" target=\"_blank\" rel=\"noopener\" style=\"color: #1a0dab; text-decoration: underline; font-weight: 600;\">YouTube channel</a>.",
     "about.point2.title": "",
     "about.point2.body": "",
     "about.point3.title": "",
@@ -87,9 +85,9 @@ const translations = {
       "Use tone, dynamics and space to make even simple lines sound musical.",
 
     "pricing.eyebrow": "Prices",
-    "pricing.title": "45‑ or 60‑minute focused lessons, first 45‑minute intro is free.",
+    "pricing.title": "45‑ or 60‑minute lessons",
     "pricing.subtitle":
-      "The introductory lesson is completely free — it focuses on the student's goals, includes some playing and defines a realistic plan.",
+      "The first session is completely free — it focuses on the student's goals, includes some playing and ends with a realistic plan.",
 
     "pricing.online.label": "Online",
     "pricing.online.title": "Online lessons (video call)",
@@ -110,7 +108,7 @@ const translations = {
     "contact.eyebrow": "Contact",
     "contact.title": "Contact about lessons or performances.",
     "contact.subtitle":
-      "Visitors can send a short message about lessons, performances or general questions. Timen replies with details and possible dates.",
+      "Visitors can send a short message about lessons, performances or general questions, or email <a href=\"mailto:your.email@example.com\" style=\"color: #1a0dab; text-decoration: underline; font-weight: 600;\">directly</a>. Timen replies with details and possible dates.",
     "contact.note": "",
 
     "contact.form.nameLabel": "Name",
@@ -143,8 +141,8 @@ const translations = {
     "performances.cards.concerts.body":
       "A full concert‑length programme of original pieces and arrangements, ideal for listening‑focused rooms and smaller stages.",
     "performances.cta.text":
-      "To hear how we sound live, visitors can open our YouTube channel and send an email or use the contact section on the lessons page to ask about a specific date or event.",
-    "performances.cta.button": "Open YouTube channel",
+      "To get a feel for how the performances sound live, visitors can open our YouTube channel.",
+    "performances.cta.button": "YouTube channel",
 
     "performances.contact.eyebrow": "Booking",
     "performances.contact.title":
@@ -175,7 +173,7 @@ const translations = {
 
     "hero.eyebrow": "Ure fingerstyle kitare",
     "hero.title":
-      "Učenci se naučijo obvladati kitaro z <span>modernimi fingerstyle tehnikami</span>.",
+      "Nauči se obvladati kitaro z <span>modernimi fingerstyle tehnikami</span>.",
     "hero.subtitle":
       "Individualne ure za napredne kitariste ali odrasle začetnike. Učenci se učijo sodobnega fingerstylea, improvizacije in pisanja lastnih instrumentalnih aranžmajev.",
     "hero.ctaPrimary": "Rezerviraj brezplačno uvodno uro",
@@ -218,7 +216,7 @@ const translations = {
     "about.subtitle": " ",
     "about.point1.title": "Iz šole za glasbo v fingerstyle",
     "about.point1.body":
-      "Po začetku v glasbeni šoli se je Timen Stepišnik Perdih osredotočil na sodobno glasbo. Bil je član večih skupin v katerih je igral solo in ritem kitaro, obenem pa je pogosto nastopal tudi v solo fingerstyle izvedbah. Novo znanje aktivno pridobiva že 20 let.<br><br>Fingerstyle izvedbe navadno vključujejo priredbe popularnih pesmi, skladbe, napisane za solo kitaro in Timnove avtorske instrumentalne skladbe. Posnetke z nastopov in avtorskih skladb si lahko ogledate na <a href=\"https://www.youtube.com/@timen-music\" target=\"_blank\" rel=\"noopener\" style=\"color: #1a0dab; text-decoration: underline; font-weight: 600;\">YouTube kanalu</a>.",
+      "Po učenju v glasbeni šoli se je Timen Stepišnik Perdih osredotočil na sodobno glasbo. Bil je član večih skupin v katerih je igral solo in ritem kitaro, obenem pa je pogosto nastopal tudi v solo fingerstyle izvedbah. Novo znanje aktivno pridobiva že 20 let.<br><br>Fingerstyle izvedbe navadno vključujejo priredbe popularnih pesmi, skladbe, napisane za solo kitaro in Timnove avtorske instrumentalne skladbe. Posnetke z nastopov in avtorskih skladb si lahko ogledate na <a href=\"https://www.youtube.com/@timen-music\" target=\"_blank\" rel=\"noopener\" style=\"color: #1a0dab; text-decoration: underline; font-weight: 600;\">YouTube kanalu</a>.",
     "about.point2.title": "",
     "about.point2.body": "",
     "about.point3.title": "",
