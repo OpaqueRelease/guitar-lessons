@@ -62,10 +62,11 @@ If you ever change the actual lesson length (e.g. from 45 min to 60 min), update
 
 ### Contact email and form
 
-Right now the contact email is a **placeholder**:
+The contact email is currently set to:
 
-- Search for `your.email@example.com` in both `index.html` and `script.js`.
-- Replace it with your real teaching email, for example: `ime.priimek@gmail.com`.
+- `tstepisnikp@gmail.com`
+
+To change it later, search for `tstepisnikp@gmail.com` in both `index.html` and `script.js` and replace it.
 
 The contact form uses `mailto:`:
 

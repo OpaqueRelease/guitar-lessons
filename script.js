@@ -108,7 +108,7 @@ const translations = {
     "contact.eyebrow": "Contact",
     "contact.title": "Contact about lessons or performances.",
     "contact.subtitle":
-      "Visitors can send a short message about lessons, performances or general questions, or email <a href=\"mailto:your.email@example.com\" style=\"color: #1a0dab; text-decoration: underline; font-weight: 600;\">directly</a>. Timen replies with details and possible dates.",
+      "Visitors can send a short message about lessons, performances or general questions, or email <a href=\"mailto:tstepisnikp@gmail.com\" style=\"color: #1a0dab; text-decoration: underline; font-weight: 600;\">directly</a>. Timen replies with details and possible dates.",
     "contact.note": "",
 
     "contact.form.nameLabel": "Name",
@@ -268,7 +268,7 @@ const translations = {
 
     "contact.eyebrow": "Kontakt",
     "contact.title": "Kontakt za vprašanja glede učnih ur ali nastopov.",
-    "contact.subtitle": "Uporabite obrazec ali pošljite sporočilo na <a href=\"mailto:your.email@example.com\" style=\"color: #1a0dab; text-decoration: underline; font-weight: 600;\">email</a>.",
+    "contact.subtitle": "Uporabite obrazec ali pošljite sporočilo na <a href=\"mailto:tstepisnikp@gmail.com\" style=\"color: #1a0dab; text-decoration: underline; font-weight: 600;\">email</a>.",
     "contact.form.nameLabel": "Ime",
     "contact.form.emailLabel": "Email",
     "contact.form.formatLabel": "Način učenja",
@@ -450,7 +450,7 @@ function initContactForm() {
         `${message}`,
       ];
 
-      const mailto = `mailto:your.email@example.com?subject=${encodeURIComponent(
+      const mailto = `mailto:tstepisnikp@gmail.com?subject=${encodeURIComponent(
         subject
       )}&body=${encodeURIComponent(bodyLines.join("\n"))}`;
 
