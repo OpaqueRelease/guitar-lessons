@@ -118,6 +118,7 @@ const translations = {
     "contact.form.formatInPerson": "In person",
     "contact.form.formatEither": "Either",
     "contact.form.messageLabel": "Message",
+    "contact.form.messagePlaceholder": "Briefly describe what you're interested in — lessons, performances or a general question.",
     "contact.form.submit": "Send message",
 
     "performances.eyebrow": "Live performances",
@@ -276,6 +277,7 @@ const translations = {
     "contact.form.formatInPerson": "V živo",
     "contact.form.formatEither": "Kakorkoli",
     "contact.form.messageLabel": "Sporočilo",
+    "contact.form.messagePlaceholder": "Na kratko opišite, kaj vas zanima — ure, nastopi ali splošno vprašanje.",
     "contact.form.submit": "Pošlji sporočilo",
 
     "performances.contact.eyebrow": "Rezervacije",
