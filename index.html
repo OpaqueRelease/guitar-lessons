@@ -186,9 +186,15 @@
               </span>
             </div>
           </div>
-          <div class="hero-visual" aria-hidden="true">
+          <div class="hero-visual">
             <div class="hero-card">
               <div class="hero-wave"></div>
+              <img
+                src="timen-guitar.jpg"
+                alt="Timen playing fingerstyle guitar"
+                class="hero-photo"
+                loading="eager"
+              />
               <div class="hero-stats">
                 <div class="stat">
                   <span class="stat-number" data-i18n="hero.stat1Number"
@@ -322,7 +328,7 @@
                   src="https://www.w3schools.com/html/mov_bbb.mp4"
                   controls
                   muted
-                  preload="metadata"
+                  preload="none" loading="lazy"
                 ></video>
               </div>
               <h3 data-i18n="videos.items.1.title">Thumb–melody independence</h3>
@@ -337,7 +343,7 @@
                   src="https://www.w3schools.com/html/mov_bbb.mp4"
                   controls
                   muted
-                  preload="metadata"
+                  preload="none" loading="lazy"
                 ></video>
               </div>
               <h3 data-i18n="videos.items.2.title">
@@ -354,7 +360,7 @@
                   src="https://www.w3schools.com/html/mov_bbb.mp4"
                   controls
                   muted
-                  preload="metadata"
+                  preload="none" loading="lazy"
                 ></video>
               </div>
               <h3 data-i18n="videos.items.3.title">
@@ -371,7 +377,7 @@
                   src="https://www.w3schools.com/html/mov_bbb.mp4"
                   controls
                   muted
-                  preload="metadata"
+                  preload="none" loading="lazy"
                 ></video>
               </div>
               <h3 data-i18n="videos.items.4.title">Improvising intros & outros</h3>
@@ -386,7 +392,7 @@
                   src="https://www.w3schools.com/html/mov_bbb.mp4"
                   controls
                   muted
-                  preload="metadata"
+                  preload="none" loading="lazy"
                 ></video>
               </div>
               <h3 data-i18n="videos.items.5.title">
@@ -403,7 +409,7 @@
                   src="https://www.w3schools.com/html/mov_bbb.mp4"
                   controls
                   muted
-                  preload="metadata"
+                  preload="none" loading="lazy"
                 ></video>
               </div>
               <h3 data-i18n="videos.items.6.title">
@@ -442,7 +448,7 @@
                 Online lessons (video call)
               </h3>
               <p class="pricing-price" data-i18n="pricing.online.price">
-                20 € / 45‑minute lesson
+                20 € / 45‑minute lesson or 25 € / 60‑minute lesson
               </p>
               <ul class="pricing-list">
                 <li data-i18n="pricing.online.item1">
@@ -462,7 +468,7 @@
                 In‑person lessons (Slovenia)
               </h3>
               <p class="pricing-price" data-i18n="pricing.inperson.price">
-                35 € / 45‑minute lesson
+                35 € / 45‑minute lesson or 42 € / 60‑minute lesson
               </p>
               <ul class="pricing-list">
                 <li data-i18n="pricing.inperson.item1">
@@ -490,11 +496,7 @@
                 general questions, or email
                 <a
                   href="mailto:tstepisnikp@gmail.com"
-                  style="
-                    color: #1a0dab;
-                    text-decoration: underline;
-                    font-weight: 600;
-                  "
+                  class="content-link"
                   >directly</a
                 >. Timen replies with details and possible dates.
               </p>
@@ -565,7 +567,7 @@
     <footer class="site-footer">
       <div class="container footer-inner">
         <p data-i18n="footer.copy">
-          © <span id="year"></span> Kitara Studio – Guitar lessons for adults.
+          © <span class="year"></span> Kitara Studio – Guitar lessons for adults.
         </p>
       </div>
     </footer>

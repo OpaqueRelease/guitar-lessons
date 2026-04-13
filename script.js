@@ -55,7 +55,7 @@ const translations = {
     "about.subtitle": " ",
     "about.point1.title": "From music school to fingerstyle",
     "about.point1.body":
-      "After learning classical guitar in music school, Timen Stepišnik Perdih focused on modern music. He has played lead and rhythm guitar in several bands and also performed solo in fingerstyle settings, actively developing his craft for over 20 years.<br><br>His fingerstyle sets usually include arrangements of popular songs, pieces written for solo guitar and Timen’s own instrumental compositions. Recordings from performances and original pieces can be heard on his <a href=\"https://www.youtube.com/@timen-music\" target=\"_blank\" rel=\"noopener\" style=\"color: #1a0dab; text-decoration: underline; font-weight: 600;\">YouTube channel</a>.",
+      "After learning classical guitar in music school, Timen Stepišnik Perdih focused on modern music. He has played lead and rhythm guitar in several bands and also performed solo in fingerstyle settings, actively developing his craft for over 20 years.<br><br>His fingerstyle sets usually include arrangements of popular songs, pieces written for solo guitar and Timen’s own instrumental compositions. Recordings from performances and original pieces can be heard on his <a href=\"https://www.youtube.com/@timen-music\" target=\"_blank\" rel=\"noopener\" class=\"content-link\">YouTube channel</a>.",
     "about.point2.title": "",
     "about.point2.body": "",
     "about.point3.title": "",
@@ -85,19 +85,19 @@ const translations = {
       "Use tone, dynamics and space to make even simple lines sound musical.",
 
     "pricing.eyebrow": "Prices",
-    "pricing.title": "45‑ or 60‑minute lessons",
+    "pricing.title": "45‑ or 60‑minute lessons, first one is free.",
     "pricing.subtitle":
       "The first session is completely free — it focuses on the student's goals, includes some playing and ends with a realistic plan.",
 
     "pricing.online.label": "Online",
     "pricing.online.title": "Online lessons (video call)",
-    "pricing.online.price": "25 € / 45‑minute lesson or 30 € / 60‑minute lesson",
+    "pricing.online.price": "20 € / 45‑minute lesson or 25 € / 60‑minute lesson",
     "pricing.online.item1": "Flexible scheduling",
     "pricing.online.item2": "Use of online materials",
 
     "pricing.inperson.label": "In person",
     "pricing.inperson.title": "In‑person lessons (Ljubljana)",
-    "pricing.inperson.price": "40 € / 45‑minute lesson or 50 € / 60‑minute lesson",
+    "pricing.inperson.price": "35 € / 45‑minute lesson or 42 € / 60‑minute lesson",
     "pricing.inperson.item1":
       "Ideal for students in Ljubljana",
     "pricing.inperson.item2": "Option to blend online and in‑person sessions",
@@ -108,7 +108,7 @@ const translations = {
     "contact.eyebrow": "Contact",
     "contact.title": "Contact about lessons or performances.",
     "contact.subtitle":
-      "Visitors can send a short message about lessons, performances or general questions, or email <a href=\"mailto:tstepisnikp@gmail.com\" style=\"color: #1a0dab; text-decoration: underline; font-weight: 600;\">directly</a>. Timen replies with details and possible dates.",
+      "Visitors can send a short message about lessons, performances or general questions, or email <a href=\"mailto:tstepisnikp@gmail.com\" class=\"content-link\">directly</a>. Timen replies with details and possible dates.",
     "contact.note": "",
 
     "contact.form.nameLabel": "Name",
@@ -148,7 +148,7 @@ const translations = {
     "performances.contact.eyebrow": "Booking",
     "performances.contact.title":
       "Ask about dates for solo fingerstyle performances.",
-    "performances.contact.subtitle": "",
+    "performances.contact.subtitle": "Use the form or send a message to <a href=\"mailto:tstepisnikp@gmail.com\" class=\"content-link\">email</a>.",
     "performances.contact.note": "",
     "performances.contact.form.nameLabel": "Name and organisation",
     "performances.contact.form.emailLabel": "Email",
@@ -158,7 +158,7 @@ const translations = {
     "performances.contact.form.submit": "Send performance enquiry",
 
     "footer.copy":
-      "© <span id=\"year\"></span> Studio Fingerstyle Kitare – Fingerstyle guitar lessons for advanced players.",
+      "© <span class=\"year\"></span> Studio Fingerstyle Kitare – Fingerstyle guitar lessons for advanced players.",
     "footer.meta": " ",
   },
   sl: {
@@ -217,7 +217,7 @@ const translations = {
     "about.subtitle": " ",
     "about.point1.title": "Iz šole za glasbo v fingerstyle",
     "about.point1.body":
-      "Po učenju v glasbeni šoli se je Timen Stepišnik Perdih osredotočil na sodobno glasbo. Bil je član večih skupin v katerih je igral solo in ritem kitaro, obenem pa je pogosto nastopal tudi v solo fingerstyle izvedbah. Novo znanje aktivno pridobiva že 20 let.<br><br>Fingerstyle izvedbe navadno vključujejo priredbe popularnih pesmi, skladbe, napisane za solo kitaro in Timnove avtorske instrumentalne skladbe. Posnetke z nastopov in avtorskih skladb si lahko ogledate na <a href=\"https://www.youtube.com/@timen-music\" target=\"_blank\" rel=\"noopener\" style=\"color: #1a0dab; text-decoration: underline; font-weight: 600;\">YouTube kanalu</a>.",
+      "Po učenju v glasbeni šoli se je Timen Stepišnik Perdih osredotočil na sodobno glasbo. Bil je član večih skupin v katerih je igral solo in ritem kitaro, obenem pa je pogosto nastopal tudi v solo fingerstyle izvedbah. Novo znanje aktivno pridobiva že 20 let.<br><br>Fingerstyle izvedbe navadno vključujejo priredbe popularnih pesmi, skladbe, napisane za solo kitaro in Timnove avtorske instrumentalne skladbe. Posnetke z nastopov in avtorskih skladb si lahko ogledate na <a href=\"https://www.youtube.com/@timen-music\" target=\"_blank\" rel=\"noopener\" class=\"content-link\">YouTube kanalu</a>.",
     "about.point2.title": "",
     "about.point2.body": "",
     "about.point3.title": "",
@@ -247,19 +247,19 @@ const translations = {
       "Uporaba tona, dinamike in prostora, da tudi enostavne linije zvenijo čustveno.",
 
     "pricing.eyebrow": "Cenik",
-    "pricing.title": "45‑ ali 60‑minutne vaje",
+    "pricing.title": "45‑ ali 60‑minutne ure, prva je brezplačna.",
     "pricing.subtitle":
       "Uvodna vaja je popolnoma brezplačna – na njej se pogovorimo o ciljih, nekaj zaigramo in pripravimo realen načrt.",
 
     "pricing.online.label": "Online",
     "pricing.online.title": "Online ure (video klic)",
-    "pricing.online.price": "25 € / 45‑minutna ura ali 30 € / 60‑minutna ura",
+    "pricing.online.price": "20 € / 45‑minutna ura ali 25 € / 60‑minutna ura",
     "pricing.online.item1": "Prilagodljiv urnik",
     "pricing.online.item2": "Uporaba online gradiv",
 
     "pricing.inperson.label": "V živo",
     "pricing.inperson.title": "Ure v živo (Ljubljana)",
-    "pricing.inperson.price": "40 € / 45‑minutna ura ali 50 € / 60‑minutna ura",
+    "pricing.inperson.price": "35 € / 45‑minutna ura ali 42 € / 60‑minutna ura",
     "pricing.inperson.item1":
       "Idealno za učence v Ljubljani",
     "pricing.inperson.item2": "Možnost kombiniranja online in ur v živo",
@@ -269,7 +269,7 @@ const translations = {
 
     "contact.eyebrow": "Kontakt",
     "contact.title": "Kontakt za vprašanja glede učnih ur ali nastopov.",
-    "contact.subtitle": "Uporabite obrazec ali pošljite sporočilo na <a href=\"mailto:tstepisnikp@gmail.com\" style=\"color: #1a0dab; text-decoration: underline; font-weight: 600;\">email</a>.",
+    "contact.subtitle": "Uporabite obrazec ali pošljite sporočilo na <a href=\"mailto:tstepisnikp@gmail.com\" class=\"content-link\">email</a>.",
     "contact.form.nameLabel": "Ime",
     "contact.form.emailLabel": "Email",
     "contact.form.formatLabel": "Način učenja",
@@ -283,7 +283,7 @@ const translations = {
     "performances.contact.eyebrow": "Rezervacije",
     "performances.contact.title":
       "Povpraševanje za nastop solo fingerstyle kitare.",
-    "performances.contact.subtitle": "",
+    "performances.contact.subtitle": "Uporabite obrazec ali pošljite sporočilo na <a href=\"mailto:tstepisnikp@gmail.com\" class=\"content-link\">email</a>.",
     "performances.contact.note": "",
     "performances.contact.form.nameLabel": "Ime in organizacija",
     "performances.contact.form.emailLabel": "Email",
@@ -318,7 +318,7 @@ const translations = {
     "performances.cta.button": "YouTube kanal",
 
     "footer.copy":
-      "© <span id=\"year\"></span> Studio Fingerstyle Kitare – fingerstyle kitare za napredne kitariste.",
+      "© <span class=\"year\"></span> Studio Fingerstyle Kitare – fingerstyle kitare za napredne kitariste.",
     "footer.meta":
       " ",
   },
@@ -386,6 +386,13 @@ function initNav() {
 
   links.addEventListener("click", (event) => {
     if (event.target instanceof HTMLAnchorElement) {
+      toggle.setAttribute("aria-expanded", "false");
+      links.classList.remove("open");
+    }
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!toggle.contains(event.target) && !links.contains(event.target)) {
       toggle.setAttribute("aria-expanded", "false");
       links.classList.remove("open");
     }
@@ -478,10 +485,9 @@ function initLangButtons() {
 }
 
 function initYear() {
-  const yearSpan = document.getElementById("year");
-  if (yearSpan) {
-    yearSpan.textContent = String(new Date().getFullYear());
-  }
+  document.querySelectorAll(".year").forEach((el) => {
+    el.textContent = String(new Date().getFullYear());
+  });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
