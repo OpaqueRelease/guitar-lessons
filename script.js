@@ -2,7 +2,7 @@ const translations = {
   en: {
     "brand.name": "Studio Fingerstyle Kitare",
     "brand.tagline": "Modern Fingerstyle Techniques",
-    "nav.about": "About the teacher",
+    "nav.about": "About us",
     "nav.lessons": "Learn",
     "nav.school": "Guitar school",
     "nav.performances": "Performing",
@@ -22,7 +22,7 @@ const translations = {
       "In Ljubljana or online.",
     "hero.sessionLabel": "Next available: this week",
     "hero.sessionText":
-      "Bring a song you like – together you and Timen turn it into a playable fingerstyle arrangement.",
+      "Bring a song you like – together we'll turn it into a playable fingerstyle arrangement.",
     "hero.stat1Number": "45–60 min",
     "hero.stat1Label": "Session length",
     "hero.stat2Number": "1 : 1",
@@ -50,12 +50,12 @@ const translations = {
     "lessons.cards.mindset.title": "Practice mindset for advanced guitar students",
     "lessons.cards.mindset.body": "",
 
-    "about.eyebrow": "About the teacher",
+    "about.eyebrow": "About us",
     "about.title": " ",
     "about.subtitle": " ",
     "about.point1.title": "From music school to fingerstyle",
     "about.point1.body":
-      "After learning classical guitar in music school, Timen Stepišnik Perdih focused on modern music. He has played lead and rhythm guitar in several bands and also performed solo in fingerstyle settings, actively developing his craft for over 20 years.<br><br>His fingerstyle sets usually include arrangements of popular songs, pieces written for solo guitar and Timen’s own instrumental compositions. Recordings from performances and original pieces can be heard on his <a href=\"https://www.youtube.com/@timen-music\" target=\"_blank\" rel=\"noopener\" class=\"content-link\">YouTube channel</a>.",
+      "After learning classical guitar in music school, we focused on modern music. We’ve played lead and rhythm guitar in several bands and performed solo in fingerstyle settings, actively developing our craft for over 20 years.<br><br>Our fingerstyle sets usually include arrangements of popular songs, pieces written for solo guitar and our own instrumental compositions. Recordings from performances and original pieces can be heard on our <a href=\"https://www.youtube.com/@timen-music\" target=\"_blank\" rel=\"noopener\" class=\"content-link\">YouTube channel</a>.",
     "about.point2.title": "",
     "about.point2.body": "",
     "about.point3.title": "",
@@ -87,7 +87,7 @@ const translations = {
     "pricing.eyebrow": "Prices",
     "pricing.title": "45‑ or 60‑minute lessons, first one is free.",
     "pricing.subtitle":
-      "The first session is completely free — it focuses on the student's goals, includes some playing and ends with a realistic plan.",
+      "The first session is completely free — we focus on your goals, play together and create a realistic plan.",
 
     "pricing.online.label": "Online",
     "pricing.online.title": "Online lessons (video call)",
@@ -108,7 +108,7 @@ const translations = {
     "contact.eyebrow": "Contact",
     "contact.title": "Contact about lessons or performances.",
     "contact.subtitle":
-      "Visitors can send a short message about lessons, performances or general questions, or email <a href=\"mailto:tstepisnikp@gmail.com\" class=\"content-link\">directly</a>. Timen replies with details and possible dates.",
+      "Send us a short message about lessons, performances or general questions, or email <a href=\"mailto:tstepisnikp@gmail.com\" class=\"content-link\">directly</a>. We'll reply with details and possible dates.",
     "contact.note": "",
 
     "contact.form.nameLabel": "Name",
@@ -142,7 +142,7 @@ const translations = {
     "performances.cards.concerts.body":
       "A full concert‑length programme of original pieces and arrangements, ideal for listening‑focused rooms and smaller stages.",
     "performances.cta.text":
-      "To get a feel for how the performances sound live, visitors can open our YouTube channel.",
+      "To get a feel for how we sound live, check out our YouTube channel.",
     "performances.cta.button": "YouTube channel",
 
     "performances.contact.eyebrow": "Booking",
@@ -164,7 +164,7 @@ const translations = {
   sl: {
     "brand.name": "Studio Fingerstyle Kitare",
     "brand.tagline": "Sodobne fingerstyle tehnike",
-    "nav.about": "O učitelju",
+    "nav.about": "O nas",
     "nav.lessons": "Nauči se",
     "nav.school": "Šola kitare",
     "nav.performances": "Nastopanje",
@@ -176,7 +176,7 @@ const translations = {
     "hero.title":
       "Nauči se obvladati kitaro z <span>modernimi fingerstyle tehnikami</span>.",
     "hero.subtitle":
-      "Individualne ure za napredne kitariste ali odrasle začetnike. Učenci se učijo sodobnega fingerstylea, improvizacije in pisanja lastnih instrumentalnih aranžmajev.",
+      "Individualne ure za napredne kitariste ali odrasle začetnike. Učimo sodobni fingerstyle, improvizacijo in pisanje lastnih instrumentalnih aranžmajev.",
     "hero.ctaPrimary": "Rezerviraj brezplačno uvodno uro",
     "hero.ctaSecondary": "Nauči se fingerstyle tehnike",
     "hero.badge": "Brezplačna 45‑minutna ura",
@@ -184,7 +184,7 @@ const translations = {
       "V Ljubljani ali online.",
     "hero.sessionLabel": "Naslednji termin: ta teden",
     "hero.sessionText":
-      "Na uvodni uri lahko študent prinese pesem, ki mu je všeč – skupaj se spremeni v fingerstyle aranžma.",
+      "Na uvodno uro lahko prinesete pesem, ki vam je všeč – skupaj jo spremenimo v fingerstyle aranžma.",
     "hero.stat1Number": "45–60 min",
     "hero.stat1Label": "Dolžina vaje",
     "hero.stat2Number": "1 : 1",
@@ -212,12 +212,12 @@ const translations = {
     "lessons.cards.mindset.title": "Vaje za napredne kitariste",
     "lessons.cards.mindset.body": " ",
 
-    "about.eyebrow": "O učitelju",
+    "about.eyebrow": "O nas",
     "about.title": " ",
     "about.subtitle": " ",
     "about.point1.title": "Iz šole za glasbo v fingerstyle",
     "about.point1.body":
-      "Po učenju v glasbeni šoli se je Timen Stepišnik Perdih osredotočil na sodobno glasbo. Bil je član večih skupin v katerih je igral solo in ritem kitaro, obenem pa je pogosto nastopal tudi v solo fingerstyle izvedbah. Novo znanje aktivno pridobiva že 20 let.<br><br>Fingerstyle izvedbe navadno vključujejo priredbe popularnih pesmi, skladbe, napisane za solo kitaro in Timnove avtorske instrumentalne skladbe. Posnetke z nastopov in avtorskih skladb si lahko ogledate na <a href=\"https://www.youtube.com/@timen-music\" target=\"_blank\" rel=\"noopener\" class=\"content-link\">YouTube kanalu</a>.",
+      "Po učenju v glasbeni šoli smo se osredotočili na sodobno glasbo. Igrali smo solo in ritem kitaro v večih skupinah, obenem pa pogosto nastopali tudi v solo fingerstyle izvedbah. Novo znanje aktivno pridobivamo že 20 let.<br><br>Naše fingerstyle izvedbe navadno vključujejo priredbe popularnih pesmi, skladbe, napisane za solo kitaro in avtorske instrumentalne skladbe. Posnetke z nastopov in avtorskih skladb si lahko ogledate na našem <a href=\"https://www.youtube.com/@timen-music\" target=\"_blank\" rel=\"noopener\" class=\"content-link\">YouTube kanalu</a>.",
     "about.point2.title": "",
     "about.point2.body": "",
     "about.point3.title": "",
@@ -226,7 +226,7 @@ const translations = {
     "videos.eyebrow": "Predogled tehnik",
     "videos.title": "Kratki primeri naprednih fingerstyle idej.",
     "videos.subtitle":
-      "Spodaj so začasni videi – na končni strani bodo tukaj kratki posnetki tehnik in aranžmajev, ki jih učitelj uporablja pri pouku.",
+      "Kratki posnetki tehnik in aranžmajev, ki jih uporabljamo pri pouku.",
     "videos.items.1.title": "Neodvisnost palca in melodije",
     "videos.items.1.body":
       "Stalni bas s palcem, medtem ko prsti igrajo tekočo melodijo na vrhu.",
