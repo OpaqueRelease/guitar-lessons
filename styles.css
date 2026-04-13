@@ -764,14 +764,10 @@ a {
   pointer-events: none;
 }
 
-.pill-option input:checked + span,
-.pill-option input:focus-visible + span {
-  color: #020617;
-}
-
 .pill-option input:checked ~ span,
 .pill-option input:focus-visible ~ span {
   color: #020617;
+  font-weight: 500;
 }
 
 .pill-option input:checked ~ span::before,
@@ -779,24 +775,6 @@ a {
   background: #020617;
 }
 
-.pill-option input:checked ~ span,
-.pill-option input:focus-visible ~ span {
-  font-weight: 500;
-}
-
-.pill-option input:checked ~ span,
-.pill-option input:focus-visible ~ span,
-.pill-option input:checked ~ span,
-.pill-option input:focus-visible ~ span {
-  /* prevent warnings */
-}
-
-.pill-option input:checked ~ span,
-.pill-option input:focus-visible ~ span {
-  /* intentionally left blank for specificity */
-}
-
-.pill-option input:checked ~ span,
 .pill-option:has(input:checked) {
   background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
   border-color: transparent;
