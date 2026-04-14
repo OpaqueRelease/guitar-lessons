@@ -466,11 +466,35 @@ function initYear() {
 
 function initVideos() {
   const videos = document.querySelectorAll(".video-grid video");
+  const FADE_SECONDS = 2;
+
   videos.forEach((video) => {
     video.addEventListener("play", () => {
+      video.volume = 1;
       videos.forEach((other) => {
         if (other !== video) other.pause();
       });
+    });
+
+    video.addEventListener("timeupdate", () => {
+      if (!Number.isFinite(video.duration)) return;
+      const remaining = video.duration - video.currentTime;
+      if (remaining <= FADE_SECONDS) {
+        video.volume = Math.max(0, remaining / FADE_SECONDS);
+      } else if (video.volume < 1) {
+        video.volume = 1;
+      }
+    });
+
+    video.addEventListener("seeking", () => {
+      const remaining = video.duration - video.currentTime;
+      video.volume = remaining <= FADE_SECONDS
+        ? Math.max(0, remaining / FADE_SECONDS)
+        : 1;
+    });
+
+    video.addEventListener("ended", () => {
+      video.volume = 1;
     });
   });
 }
