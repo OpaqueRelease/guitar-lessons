@@ -64,11 +64,12 @@ const translations = {
     "videos.eyebrow": "Technique preview",
     "videos.title": "Short examples of advanced fingerstyle ideas.",
     "videos.subtitle":
-      "Below are placeholder videos — in the live site, these become short clips showing the kind of techniques and arrangements covered in lessons.",
+      "Short clips showing the kind of techniques and arrangements covered in lessons.",
     "videos.items.1.title": "Hammer-ons & pull-offs",
     "videos.items.2.title": "Harmonics",
     "videos.items.3.title": "Thumb independence",
     "videos.items.4.title": "Percussive hits",
+
     "pricing.eyebrow": "Prices",
     "pricing.title": "45‑ or 60‑minute lessons, first one is free.",
     "pricing.subtitle":
@@ -216,6 +217,7 @@ const translations = {
     "videos.items.2.title": "Flažolete",
     "videos.items.3.title": "Neodvisnost palca",
     "videos.items.4.title": "Perkusivni udarci",
+
     "pricing.eyebrow": "Cenik",
     "pricing.title": "45‑ ali 60‑minutne ure, prva je brezplačna.",
     "pricing.subtitle":
