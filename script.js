@@ -462,12 +462,24 @@ function initYear() {
   });
 }
 
+function initVideos() {
+  const videos = document.querySelectorAll(".video-grid video");
+  videos.forEach((video) => {
+    video.addEventListener("play", () => {
+      videos.forEach((other) => {
+        if (other !== video) other.pause();
+      });
+    });
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   initLanguage();
   initLangButtons();
   initNav();
   initSmoothScrolling();
   initContactForm();
+  initVideos();
   initYear();
 });
 
