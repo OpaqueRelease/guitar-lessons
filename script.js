@@ -65,25 +65,10 @@ const translations = {
     "videos.title": "Short examples of advanced fingerstyle ideas.",
     "videos.subtitle":
       "Below are placeholder videos — in the live site, these become short clips showing the kind of techniques and arrangements covered in lessons.",
-    "videos.items.1.title": "Thumb–melody independence",
-    "videos.items.1.body":
-      "Keeping a steady bass pattern while the picking fingers play a flowing melody on top.",
-    "videos.items.2.title": "Percussive hits & ghost notes",
-    "videos.items.2.body":
-      "Combine groove, chord stabs and subtle percussion for a modern sound.",
-    "videos.items.3.title": "Harmonics & open tunings",
-    "videos.items.3.body":
-      "Use natural harmonics and creative tunings to get rich, cinematic textures.",
-    "videos.items.4.title": "Improvising intros & outros",
-    "videos.items.4.body":
-      "Simple ideas to start and end songs in a way that feels natural and expressive.",
-    "videos.items.5.title": "Turning chord progressions into songs",
-    "videos.items.5.body":
-      "Take a simple progression and build a full instrumental around it.",
-    "videos.items.6.title": "Dynamic phrasing for emotional playing",
-    "videos.items.6.body":
-      "Use tone, dynamics and space to make even simple lines sound musical.",
-
+    "videos.items.1.title": "Hammer-ons & pull-offs",
+    "videos.items.2.title": "Harmonics",
+    "videos.items.3.title": "Thumb independence",
+    "videos.items.4.title": "Percussive hits",
     "pricing.eyebrow": "Prices",
     "pricing.title": "45‑ or 60‑minute lessons, first one is free.",
     "pricing.subtitle":
@@ -227,25 +212,10 @@ const translations = {
     "videos.title": "Kratki primeri naprednih fingerstyle idej.",
     "videos.subtitle":
       "Kratki posnetki tehnik in aranžmajev, ki jih uporabljamo pri pouku.",
-    "videos.items.1.title": "Neodvisnost palca in melodije",
-    "videos.items.1.body":
-      "Stalni bas s palcem, medtem ko prsti igrajo tekočo melodijo na vrhu.",
-    "videos.items.2.title": "Perkusivni udarci in 'ghost' noti",
-    "videos.items.2.body":
-      "Združevanje groova, akordov in nežnih perkusij za sodoben zvok.",
-    "videos.items.3.title": "Flažoleti in odprte uglasitve",
-    "videos.items.3.body":
-      "Naravni flažoleti in ustvarjalne uglasitve za bogate, filmske zvočne podobe.",
-    "videos.items.4.title": "Improvizirani uvodi in zaključki",
-    "videos.items.4.body":
-      "Preproste ideje za naravne, glasbene uvode in zaključke skladb.",
-    "videos.items.5.title": "Iz akordov v pravo skladbo",
-    "videos.items.5.body":
-      "Iz preprostega zaporedja akordov zgradiva celoten instrumental.",
-    "videos.items.6.title": "Dinamika in fraziranje",
-    "videos.items.6.body":
-      "Uporaba tona, dinamike in prostora, da tudi enostavne linije zvenijo čustveno.",
-
+    "videos.items.1.title": "Hammer-on in pull-off",
+    "videos.items.2.title": "Flažolete",
+    "videos.items.3.title": "Neodvisnost palca",
+    "videos.items.4.title": "Perkusivni udarci",
     "pricing.eyebrow": "Cenik",
     "pricing.title": "45‑ ali 60‑minutne ure, prva je brezplačna.",
     "pricing.subtitle":
