@@ -127,6 +127,7 @@ const translations = {
     "performances.cards.concerts.title": "Solo concert‑style performance",
     "performances.cards.concerts.body":
       "A full concert‑length programme of original pieces and arrangements, ideal for listening‑focused rooms and smaller stages.",
+    "performances.cta.heading": "Hear a live performance",
     "performances.cta.text":
       "To get a feel for how we sound live, check out our YouTube channel.",
     "performances.cta.button": "YouTube channel",
@@ -285,6 +286,7 @@ const translations = {
     "performances.cards.concerts.title": "Samostojen koncertni nastop",
     "performances.cards.concerts.body":
       "Celovečerni program avtorskih skladb in priredb, primeren za poslušalne dvorane in manjše odre.",
+    "performances.cta.heading": "Poslušaj nastop v živo",
     "performances.cta.text":
       "Za občutek, kako zvenijo nastopi v živo, je na voljo naš YouTube kanal.",
     "performances.cta.button": "YouTube kanal",
